@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="screen">
+      <div id="result1"></div>
+      <div class="result" id="result">
+      </div>
+    </div>
+   
+    <div class="calc__body">
+      <div class="calc__math">
+        <div class="calc__math__sign" onclick="myfuncadd()">+</div>
+        <div class="calc__math__sign" onclick="myfuncminus()">-</div>
+        <div class="calc__math__sign" onclick="myfuncmult()">*</div>
+       <div class="calc__math__sign" onclick="myfuncdiv()">/</div>
+        <div class="calc__math__sign" onclick="myfuncce()">CE</div>
+       <div class="calc__math__sign clear" onclick="myfuncclear()">clear</div>
+      </div>
+      <div class="calc__num__main">
+        <div class="calc__num" id="num00" onclick="myfunc00()">00</div>
+
+        <div class="calc__num" id="num00" onclick="myfunc0()">0</div>
+
+        <div class="calc__num" id="num1" onclick="myfunc1()">1</div>
+
+        <div class="calc__num" id="num2" onclick="myfunc2()">2</div>
+        
+        <div class="calc__num" id="num1" onclick="myfunc3()">3</div>
+        <div class="calc__num" id="num4" onclick="myfunc4()">4</div>
+        <div class="calc__num" id="num5" onclick="myfunc5()">5</div>
+        <div class="calc__num" id="num6" onclick="myfunc6()">6</div>
+        <div class="calc__num" id="nu70" onclick="myfunc7()">7</div>
+        <div class="calc__num" id="num8" onclick="myfunc8()">8</div>
+        <div class="calc__num" id="num9" onclick="myfunc9()">9</div>
+        <div class="calc__num equal" id="equal" onclick="myfuncequal()">=</div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="myscript.js"></script>
+</body>
+</html>
