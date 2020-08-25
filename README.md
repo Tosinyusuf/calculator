@@ -1,3 +1,3 @@
 # calculator
 calculator challenge
-view @
+view @ https://tosinyusuf.github.io/calculator/.
